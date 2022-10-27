@@ -8,20 +8,77 @@
 }
 
 body {
-  height: 100%;  
+  background: #2D4059;
+  color: #FFD460;
+}
+
+.navbar {
+  background: #EA5455;
+  border-bottom: #FFD460 3px solid;
+  opacity: 0.8;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  color: #FFD460;
+}
+
+#home-section {
+  background: url('../img/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;  
+}
+
+#home-section .dark-overlay {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  background: #FFD460;
+  opacity: .85;
+}
+
+.card-body {
+  color: #2D4059;
+}
+
+.solution-btn {
+  background: transparent;
+  border: 1px solid #FFD460;
+  color: #FFD460;
+}
+
+.solution-btn:hover {
+  background: #FFD460;
+  color: #2D4059;
+}
+
+#solution-section {
+  color: #2D4059;
 }
 
 footer {
   position: fixed;
   bottom: 0px;
-  height: 60px;  
+  height: 4em;  
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #222;
-  color: #fff;
-  /* font-family: 'Poppins', sans-serif; */
+  /* background: #EA5455; */
+  background: #FFD460;
+  border-top: #EA5455 3px solid;
   font-style: italic;
   font-size: 1.1em;
 }
@@ -33,12 +90,12 @@ footer p {
 footer p a {
   font-size: 1.2em;
   text-decoration: none;
-  color: #e2e2e2;
+  color: #333;
   font-weight: 500;
 }
 
 footer p a:hover {
-  color: #e2e2e2;
+  color: #333;
   transform: translate(1px, 1px);
-  text-shadow: 1px 1px 2px #e2e2e2;
+  text-shadow: 1px 1px 1px #333;
 }
